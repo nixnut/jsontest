@@ -1,0 +1,230 @@
+ {
+  "Maatschappij": {
+    "HdnCode": "string",
+    "FindataCode": "string",
+    "Naam": "string",
+    "Label": [
+      {
+        "PublicatieNummer": "string",
+        "IngangsDatum": {
+          "Dag": 0,
+          "Maand": 0,
+          "Jaar": 0
+        },
+        "IngangsTijd": {
+          "Uur": 0,
+          "Minuut": 0,
+          "Seconde": 0
+        },
+        "PublicatieDatum": {
+          "Dag": 0,
+          "Maand": 0,
+          "Jaar": 0
+        },
+        "PublicatieTijd": {
+          "Uur": 0,
+          "Minuut": 0,
+          "Seconde": 0
+        },
+        "RespijttermijnDatum": {
+          "Dag": 0,
+          "Maand": 0,
+          "Jaar": 0
+        },
+        "RespijttermijnTijd": {
+          "Uur": 0,
+          "Minuut": 0,
+          "Seconde": 0
+        },
+        "HdnCode": "string",
+        "FindataCode": "string",
+        "Correctie": "string",
+        "Naam": "string",
+        "RenteTabellen": [
+          {
+            "Omschrijving": "string",
+            "VolgNummer": 0,
+            "Leningsvormen": [
+              {
+                "LeningsvormType": "string",
+                "Label": "string",
+                "CodeDeelMijType": "string"
+              }
+            ],
+            "Rente": [
+              {
+                "Percentage": 0,
+                "RentevastPeriode": {
+                  "RenteAfspraak": "string",
+                  "RenteVastInMnd": "string",
+                  "RenteBedenkTijd": "string",
+                  "RenteBedenkTijdInMnd": 0
+                },
+                "RisicoCategorie": {
+                  "Garantie": "string",
+                  "Van": 0,
+                  "TotEnMet": 0,
+                  "Naam": "string"
+                },
+                "RenteType": [
+                  "string"
+                ],
+                "RenteVaststelling": [
+                  {}
+                ],
+                "RenteVaststellingMoment": {},
+                "RenteVerlengingType": "string",
+                "Klant": [
+                  "string"
+                ],
+                "Afwijking": [
+                  {
+                    "AfwijkingType": "string",
+                    "AfwijkingSoort": "string",
+                    "Percentage": 0,
+                    "Leningsvormen": [
+                      "string"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "OverbruggingsKrediet": 0,
+        "OverbruggingsKredietVariabel": 0,
+        "KredietHypotheek": 0,
+        "KredietHypotheekVariabel": 0,
+        "Description": "string",
+        "InterestModificationType": "string",
+        "RenteType": [
+          "string"
+        ],
+        "Uitsluiting": [
+          {
+            "RentevastPeriode": {
+              "RenteAfspraak": "string",
+              "RenteVastInMnd": "string",
+              "RenteBedenkTijd": "string",
+              "RenteBedenkTijdInMnd": 0
+            },
+            "RisicoCategorie": {
+              "Garantie": "string",
+              "Van": 0,
+              "TotEnMet": 0,
+              "Naam": "string"
+            },
+            "Leningsvorm": {
+              "LeningsvormType": "string",
+              "Label": "string",
+              "CodeDeelMijType": "string"
+            },
+            "KlantType": "string",
+            "OnderpandType": "string"
+          }
+        ],
+        "Afwijking": [
+          {
+            "AfwijkingType": "string",
+            "AfwijkingSoort": "string",
+            "Percentage": 0,
+            "Duur": "string",
+            "DuurInMnd": 0,
+            "AanverwantProduct": {
+              "ProductType": "string",
+              "Labels": "string",
+              "DekkingUitkeringBedrag": 0,
+              "DekkingUitkeringPercentageHoofdsom": 0,
+              "DekkingUitkeringPercentageMaandlast": 0,
+              "DekkingDuurEenmalig": "string",
+              "DekkingDuurDoorlopendHypotheek": "string",
+              "DekkingDuurDoorlopendRentevast": "string",
+              "DekkingDuurDoorlopendVastInMnd": 0,
+              "OpbouwMinimaalSaldo": 0,
+              "OpbouwMinimaalDoelKapitaal": 0
+            },
+            "Nieuwbouw": "string",
+            "VervolgHypotheek": "string",
+            "ViaHDN": "string",
+            "Hoofdsom": {
+              "HoofdsomVan": 0,
+              "HoofdsomTotMet": 0
+            },
+            "HoofdsomDeel": {
+              "HoofdsomDeel": 0
+            },
+            "ZelfstandigOndernemer": {
+              "AantalJaarZelfstandigVan": "string",
+              "AantalJaarZelfstandigTotMet": "string"
+            },
+            "Onderpand": {
+              "OnderpandAfwijkendType": "string",
+              "MaxVerhuurdPercentage": "string",
+              "MaxBedrijfsgedeeltePercentage": "string"
+            },
+            "EnergieVerbruik": {
+              "EpcNorm": "string",
+              "EpcNormSmallOrEqual": 0,
+              "EpcBigger": 0,
+              "Energielabel": "string",
+              "EnergielabelWaarde": "string",
+              "EnergielabelType": "string",
+              "EnergieNeutraal": "string"
+            },
+            "AfwijkingNietToetsen": "string",
+            "RentevastPeriode": [
+              {
+                "RenteAfspraak": "string",
+                "RenteVastInMnd": "string",
+                "RenteBedenkTijd": "string",
+                "RenteBedenkTijdInMnd": 0
+              }
+            ],
+            "RisicoCategorie": [
+              {
+                "Garantie": "string",
+                "Van": 0,
+                "TotEnMet": 0,
+                "Naam": "string"
+              }
+            ],
+            "Leningsvormen": [
+              {
+                "LeningsvormType": "string",
+                "Label": "string",
+                "CodeDeelMijType": "string"
+              }
+            ],
+            "FinancieringType": [
+              {
+                "FinancieringType": "string"
+              }
+            ],
+            "TransactieType": "string",
+            "OnderpandType": [
+              {
+                "OnderpandType": "string"
+              }
+            ],
+            "KlantType": "string",
+            "VolledigeAflossing": [
+              {
+                "LeningsvormType": "string",
+                "Label": "string",
+                "CodeDeelMijType": "string"
+              }
+            ],
+            "Verstrekkingspercentage": {
+              "VerstrekkingspercentageVan": 0,
+              "VerstrekkingspercentageTotMet": 0
+            },
+            "RenteType": "string"
+          }
+        ],
+        "PdfUrl": "string"
+      }
+    ],
+    "LogoUrl": "string",
+    "IconUrl": "string"
+  }
+}
