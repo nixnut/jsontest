@@ -1,0 +1,56 @@
+{
+  "caseId": "string",
+  "labels": [
+    "string"
+  ],
+  "results": [
+    {
+      "kenmerken": {
+        "regel": [
+          {
+            "id": "string",
+            "scope": "string",
+            "omschrijving": "string",
+            "resultaat": "groen|rood"
+          }
+        ]
+      },
+      "beoordeling": {
+        "beoordelingResponse": {
+          "oordeel": "string",
+          "regime": "string",
+          "regel": [
+            {
+              "id": 0,
+              "naam": "string",
+              "omschrijving": "string",
+              "scope": "string",
+              "referentie": "string",
+              "resultaat": "string",
+              "aanvullendeInformatie": "string",
+              "beleidstekst": "string"
+            }
+          ],
+          "validatiemelding": [
+            {
+              "scope": "string",
+              "referentie": "string",
+              "omschrijving": "string"
+            }
+          ]
+        }
+      },
+      "label": "string",
+      "opmerking": "string",
+      "companyLogo": "string",
+      "companyName": "string",
+      "labelName": "string",
+      "faxInfo": {
+        "lti": "string",
+        "ltiVoldoet": true,
+        "ltv": "string",
+        "ltvVoldoet": true
+      }
+    }
+  ]
+}
