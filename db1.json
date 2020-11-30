@@ -1,4 +1,4 @@
- {
+{
   "Maatschappij": {
     "HdnCode": "string",
     "FindataCode": "string",
@@ -125,6 +125,7 @@
         ],
         "Afwijking": [
           {
+            "AfwijkingLabel": "string",
             "AfwijkingType": "string",
             "AfwijkingSoort": "string",
             "Percentage": 0,
@@ -218,7 +219,10 @@
               "VerstrekkingspercentageVan": 0,
               "VerstrekkingspercentageTotMet": 0
             },
-            "RenteType": "string"
+            "RenteType": "string",
+            "NietInCombinatieMet": [
+              "string"
+            ]
           }
         ],
         "PdfUrl": "string"
